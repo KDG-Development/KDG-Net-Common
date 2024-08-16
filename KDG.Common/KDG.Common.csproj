@@ -2,7 +2,7 @@
 
   <PropertyGroup>
      <PackageId>KDG-Net-Common</PackageId>
-     <Version>0.0.2-development.3</Version>
+     <Version>0.0.2</Version>
      <Authors>Kyle David Group</Authors>
      <Company>Kyle David Group</Company>
      <Description>A library for common .NET utilities</Description>
