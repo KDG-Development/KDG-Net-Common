@@ -2,12 +2,13 @@
 
   <PropertyGroup>
      <PackageId>KDG-Net-Common</PackageId>
-     <Version>0.0.2</Version>
+     <Version>0.0.3</Version>
      <Authors>Kyle David Group</Authors>
      <Company>Kyle David Group</Company>
      <Description>A library for common .NET utilities</Description>
      <PackageLicenseFile>LICENSE</PackageLicenseFile>
      <PackageReadmeFile>README.md</PackageReadmeFile>
+     <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
    </PropertyGroup>
 
   <PropertyGroup>
@@ -19,7 +20,11 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <None Include="../LICENSE" Pack="true" PackagePath=""/>
-    <None Include="../README.md" Pack="true" PackagePath=""/>
+    <None Include="../LICENSE" Pack="true" PackagePath="" />
+    <None Include="../README.md" Pack="true" PackagePath="" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FSharp.Core" Version="8.0.100" />
   </ItemGroup>
 </Project>
